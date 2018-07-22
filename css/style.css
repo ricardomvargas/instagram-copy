@@ -1,0 +1,27 @@
+body { background-color: #FAFAFA }
+header, header .row { height: 73px; }
+main { margin-top: 133px; }
+header .form-inline input {
+    height: 30px;
+    background-color: #FAFAFA;
+    border-color: #DBDBDB;
+    color: #FDFDFD;
+}
+.container { width: 936px } /*em uso*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+}
+.img-perfil-feed { width: 38px; height: 38px; }
+.img-perfil-stories { width: 50px; height: 50px; }
+.img-perfil-amigos-stories { width: 58px; height: 58px; }
+.fonte-perfil { font-size:  0.9em; font-weight: bold; color: #333333 }
+.fonte-pequena, .last-view { font-size: 0.8em; color: #C2C2C2; }
+.fonte-micro { font-size: 0.6em }
+.img-feed { max-height: 674px; }
+.bloco-stories {
+    height: 310px; 
+    overflow: scroll;
+}
+.cinza-claro { color: #C2C2C2; }
